@@ -17,6 +17,6 @@ Repository: A Place where all your code, history versions are stored.
 
 `git status` check the current status of your git repository.
 
+`git diff HEAD~1` A useful command, to tell difference between your current working directory and the very last commit of your working tree.
 
-
-
+`git reset` will make your commited files, back to unstaged status.
