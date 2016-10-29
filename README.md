@@ -23,4 +23,10 @@ Repository: A Place where all your code, history versions are stored.
 
 `git branch -d branch-name` will delete the local branch of `branch-name`
 
+`git checkout HEAD second.py` will take out the commited `second.py` from HEAD commit, and then replace your current `second.py`. Used when you have screwed `second.py` and want the previous version comes back.
 
+`git reset HEAD` will revert your changes in commit and current directory, all changed files are now red. you need to add then commit.
+
+`git reset --soft HEAD` will revert your changes in commmited area, but you can jst commit to make them staging again.
+
+`git reset --hard HEAD` will clear all changes you made since last clean working directory, it will wipe out your changes.
